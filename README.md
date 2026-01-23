@@ -14,7 +14,7 @@ This repository contains practice exercises and examples of JavaScript concepts 
 - Event Handling (Basics)
 
 ## Progress
-- ✅ Variables, Data Types, Conversion
+- ✅ Variables, Data Types, Conversion,operators
 - ⬜ Functions
 - ⬜ Loops & Conditionals
 - ⬜ Arrays & Objects
