@@ -1,0 +1,46 @@
+ DataType  Summary
+   types : 
+      1. Primitive Data Types
+        i.  Number 
+        ii. String
+        iii.Boolean
+        iv. null
+        v.  undefine
+        vi. bigint
+        vii.symbol
+      2. Non-Primitive Data Types 
+        i.  Array
+        ii. Function
+        iii.Object
+ 
+    console.log(typeof number) ==> 'number'
+    console.log(typeof string) ==> 'string'
+    console.log(typeof boolean) ==> 'boolean'
+    console.log(typeof undefine) ==> 'undefined'
+    console.log(typeof bigint) ==> 'bigint'
+    console.log(typeof symbol) ==> 'symbol'
+    console.log(typeof null) ==> 'object'  // this is a bug in javascript
+
+    let arr = [1,2,3]
+    console.log(typeof arr) ==> 'object'
+
+    let func = function (){}
+    console.log(typeof func) ==> 'function'
+
+    let obj = {name: 'John', age: 30}
+    console.log(typeof obj) ==> 'object'
+
+ Use of symbol variable
+     def . this variable is used to create unique identifiers for object properties.
+
+    let ID = Symbol('2342')
+    let _2ndID = Symbol('2342')
+    
+
+    let ID = Symbol('2342')
+    let _2ndID = Symbol('2342')
+    console.log(ID);
+    console.log(_2ndID);
+    console.log(ID === _2ndID); // false because each symbol is unique by their reference
+
+    
