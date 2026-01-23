@@ -19,6 +19,6 @@
     number += 3 * 2; // first 3 * 2 = 6 then number += 6 ( number = number + 6) ==> 5 + 6 = 11 this 11 value assigned to number
 // same as number = number + (3 * 2)
     let number2 = 5;
-        number2 += 7 * 2; // first 3 * 2 = 6 then number2 += 6 ( number2 = number2 + 6) ==> 5 + 6 = 11 this 11 value assigned to number2
+        number2 += 7 * 2; // first 7 * 2 = 14 and then  number2 += 14 ==> number2 = number2 + 14 ==> 5 + 14 = 119 Assign into number2
     console.log(number , " ", number2 ); // 11 and 19
 
